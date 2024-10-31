@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judiciary Information System - Login</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0; /* Light background color */
+            color: #333;
+            display: flex;
+            flex-direction: column; /* Change to column layout */
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            padding: 20px; /* Add padding for small screens */
+        }
+
+        /* Container for the form */
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Fixed width for form */
+            margin-top: 20px; /* Space between header and form */
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Form styling */
+        form div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%; /* Full width */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%; /* Full width button */
+            padding: 10px;
+            background-color: #007BFF; /* Primary color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Judiciary Information System</h1>
+    </header>
+    <section>
+        <form action="LoginServlet" method="post">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="role">Role:</label>
+                <select id="role" name="role" required>
+                    <option value="" disabled selected>Select your role</option>
+                    <option value="registrar">Registrar</option>
+                    <option value="culprit">Culprit</option>
+                    <option value="lawyer">Lawyer</option>
+                    <option value="judge">Judge</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

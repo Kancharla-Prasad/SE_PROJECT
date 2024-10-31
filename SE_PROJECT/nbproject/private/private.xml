@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/deleteCase.jsp</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/src/java/com/jis/judiciary/DeleteCaseServlet.java</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/index.html</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/src/java/com/jis/judiciary/RetriveUsersServlet.java</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/src/java/com/jis/judiciary/UpdateCaseServlet.java</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/viewAllUsers.jsp</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/editCase.jsp</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/WEB-INF/web.xml</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/manageAccount.jsp</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/web/viewCases.jsp</file>
+            <file>file:/home/apiiit123/NetBeansProjects/OWN/src/java/com/jis/judiciary/CaseServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
